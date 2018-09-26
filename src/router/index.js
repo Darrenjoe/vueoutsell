@@ -2,7 +2,7 @@
 路由器对象模块
 */
 import Vue from 'vue'
-import VueRouter from 'vuee-router'
+import VueRouter from 'vue-router'
 import MSite from '../pages/MSite/MSite.vue'
 import Search from '../pages/Search/Search.vue'
 import Order from '../pages/Order/Order.vue'
@@ -30,5 +30,9 @@ export default new VueRouter({
             path: '/profile',
             component: Profile
         },
+        {
+            path: '/',
+            redirect: '/msite'
+        }
     ]
 })

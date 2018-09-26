@@ -3,12 +3,10 @@
 */
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
 
-let vm = new Vue({
+new Vue({
   el: '#app',
-  render: h => h(App)
-})
-
-Vue.use({
-  vm
+  render: h => h(App),
+  router
 })
