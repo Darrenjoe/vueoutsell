@@ -13,7 +13,7 @@ Vue.use(VueRouter)
 
 export default new VueRouter({
   /* 配置所有路由 */
-  routers: [
+  routes: [
     {
       path: '/',
       redirect: '/msite'

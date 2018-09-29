@@ -1,5 +1,7 @@
 <template>
-    <div>MSite</div>
+    <div>
+        MSite
+    </div>
 </template>
 
 <script>
